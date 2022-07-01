@@ -1,2 +1,0 @@
-# gruvdwm
-My dwm config
