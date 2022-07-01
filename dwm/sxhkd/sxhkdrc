@@ -1,0 +1,98 @@
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+#alacritty
+ctrl + alt + t
+    alacritty
+
+#Brave
+ctrl + alt + b
+    brave
+
+#Librewolf
+ctrl + alt + l
+    librewolf
+
+#Virtualbox
+ctrl + alt + v
+	virtualbox
+#Pavucontrol
+ctrl + alt + p
+    pavucontrol
+
+#File-Manager
+super + shift + Return
+	thunar
+
+#reload sxhkd:
+super + shift + s
+	pkill -USR1 -x sxhkd
+
+#Freetube
+ctrl + alt + f
+    freetube
+
+#KeePassXC
+ctrl + alt + k
+	keepassxc
+#Xfce4-appfinder
+ctrl + alt + a
+    xfce4-appfinder
+
+#################################################################
+#     SCREENSHOTS
+#################################################################
+
+#screeenshooter
+ctrl + Print
+     xfce4-screenshooter
+
+#Gnome-Screenshot
+ctrl + shift + Print
+     gnome-screenshot -i
+
+#flameshot
+ctrl + super + Print
+     flameshot gui
+
+#################################################################
+#     MULTIMEDIA KEYS
+#################################################################
+
+#Raises volume
+XF86AudioRaiseVolume
+    amixer set Master 10%+
+
+#Lowers volume
+XF86AudioLowerVolume
+    amixer set Master 10%-
+
+#Mute
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+
+#PLAY
+XF86AudioPlay
+    playerctl play-pause
+
+#Next
+XF86AudioNext
+    playerctl next
+
+#previous
+XF86AudioPrev
+    playerctl previous
+
+#Stop
+XF86AudioStop
+    playerctl stop
+
+#Brightness up
+XF86MonBrightnessUp
+    xbacklight -inc 5
+
+#Brightness down
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
