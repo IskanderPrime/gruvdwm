@@ -36,10 +36,9 @@ ctrl + alt + f
 #KeePassXC
 ctrl + alt + k
 	keepassxc
-#Xfce4-appfinder
-ctrl + alt + a
-    xfce4-appfinder
-
+#Nitrogen
+ctrl + alt + n
+	nitrogen /mnt/sdb1/Wallpapers/ 2>/dev/null
 #################################################################
 #     SCREENSHOTS
 #################################################################
